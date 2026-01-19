@@ -1,0 +1,8 @@
+
+{
+  "name": "W PRESTAMOS - Soluciones Financieras",
+  "description": "Sitio oficial de W PRESTAMOS, especialistas en préstamos rápidos con garantía prendaria y transferencias inmediatas. Tu dinero al instante de forma segura.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
