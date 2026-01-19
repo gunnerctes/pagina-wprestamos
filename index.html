@@ -27,5 +27,14 @@
 <body class="bg-gray-50 text-gray-900">
     <div id="root"></div>
 <script type="module" src="/index.tsx"></script>
+    <form name="prestamos" method="POST" data-netlify="true">
+  <input type="hidden" name="form-name" value="prestamos">
+
+  <input type="text" name="nombre" placeholder="Nombre completo" required>
+  <input type="tel" name="telefono" placeholder="WhatsApp" required>
+  <input type="number" name="monto" placeholder="Monto solicitado" required>
+  <button type="submit">Solicitar préstamo</button>
+</form>
+
 </body>
 </html>
